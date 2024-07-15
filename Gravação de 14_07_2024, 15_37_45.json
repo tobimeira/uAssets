@@ -1,0 +1,39 @@
+{
+    "title": "Gravação de 14/07/2024, 15:37:45",
+    "steps": [
+        {
+            "type": "setViewport",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "chrome://serviceworker-internals/?devtools",
+                    "title": "Title"
+                }
+            ],
+            "width": 425,
+            "height": 572,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "url": "chrome://serviceworker-internals/?devtools",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "chrome://serviceworker-internals/?devtools",
+                    "title": "chrome://serviceworker-internals"
+                }
+            ]
+        },
+        {
+            "type": "waitForElement",
+            "selectors": [
+                ".cls"
+            ],
+            "operator": ">="
+        }
+    ]
+}
